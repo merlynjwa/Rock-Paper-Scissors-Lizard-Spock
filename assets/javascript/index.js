@@ -17,16 +17,6 @@ function compareHands(h1, h2) {
 }
 
 function randomHand() {
-	function numberToHand(n) {
-		switch (n) {
-			case 0: return "rock";
-			case 1: return "paper";
-			case 2: return "scissors";
-			case 3: return "spock";
-			case 4: return "lizard";
-			default: return undefined;
-		}
-	}
-
-	return numberToHand(Math.floor(Math.random() * 5));
+	let randomIx = Math.floor(Math.random() * 5)
+	return Object.keys(hands)[randomIx];
 }
