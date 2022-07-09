@@ -20,3 +20,14 @@ function randomHand() {
 	let randomIx = Math.floor(Math.random() * 5)
 	return Object.keys(hands)[randomIx];
 }
+
+function displayResult(hand) {
+	let result = compareHands(hand, randomHand());
+	if (result > 0) {
+		console.log("YOU WIN!");
+	}else if (result < 0) {
+		console.log("YOU LOSE!");
+	}else {
+		console.log("IT'S A DRAW!");
+	}
+}
