@@ -31,3 +31,8 @@ function displayResult(hand) {
 		console.log("IT'S A DRAW!");
 	}
 }
+
+for (let button of document.getElementsByTagName('button')) {
+	let hand = button.dataset.hand;
+	button.addEventListener("click", () => displayResult(hand));
+}
