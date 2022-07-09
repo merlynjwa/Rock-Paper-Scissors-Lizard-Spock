@@ -34,5 +34,5 @@ function displayResult(hand) {
 
 for (let button of document.getElementsByTagName('button')) {
 	let hand = button.dataset.hand;
-	button.addEventListener("click", () => displayResult(hand));
+	button.addEventListener("click", () => displayResult(hands[hand]));
 }
