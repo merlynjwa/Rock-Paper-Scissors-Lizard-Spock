@@ -18,7 +18,7 @@ function compareHands(h1, h2) {
 
 function randomHand() {
 	let randomIx = Math.floor(Math.random() * 5)
-	return Object.keys(hands)[randomIx];
+	return hands[Object.keys(hands)[randomIx]];
 }
 
 function displayResult(hand) {
