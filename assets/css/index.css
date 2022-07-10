@@ -36,6 +36,13 @@ button {
     justify-content: space-between;
 }
 
+/* Use CSS Grid to automatically
+ * arrange the buttons within their
+ * div container */
+ #hand-selection-buttons {
+    display: grid;
+}
+
 /* I've spaced the sections of the page.
  * I want the div containing the buttons
  * and the footer of the page to be visibly
