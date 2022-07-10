@@ -40,6 +40,14 @@ function randomHand() {
 	return hands[Object.keys(hands)[randomIx]];
 }
 
+/**
+ * 
+ * @param {{String, [String]}} hand 
+ * 
+ * Displays an alert given the result of comparing the two hands.
+ * The three alerts corrispond to the three out comes:
+ * Win, Lose, or Draw
+ */
 function displayResult(hand) {
 	let cpuHand = randomHand();
 	let result = compareHands(hand, cpuHand);
