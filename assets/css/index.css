@@ -20,8 +20,9 @@ body {
 }
 
 /* Give each button a colour in keeping with
- * the pages theme. */
+ * the pages theme. Round the corners of the buttons */
 button {
     background-color: hsl(201, 100%, 36%);
     color: white;
+    border-radius: 12px;
 }
