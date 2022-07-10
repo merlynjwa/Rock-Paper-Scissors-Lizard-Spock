@@ -10,3 +10,11 @@
     font-size: large;
     font-family: 'Fira Sans', sans-serif;
 }
+
+/* Give the page my choosen theme
+ * with a high contrast between the background
+ * colours and the text */
+body {
+    background-color: hsl(239, 94%, 19%);
+    color: white;
+}
