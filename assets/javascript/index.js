@@ -26,6 +26,13 @@ function displayResult(hand) {
 	let result = compareHands(hand, cpuHand);
 	if (result > 0) {
 		console.log("YOU WIN!");
+		Swal.fire({
+			icon: 'success',
+			title: 'Yay!',
+			text: 'You won!',
+			footer: `The computers hand: ${cpuHand.hand}`,
+			timer: 2000
+		})
 	}else if (result < 0) {
 		console.log("YOU LOSE!");
 	}else {
