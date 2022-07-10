@@ -35,6 +35,13 @@ function displayResult(hand) {
 		})
 	}else if (result < 0) {
 		console.log("YOU LOSE!");
+		Swal.fire({
+			icon: 'error',
+			title: 'Oh no!',
+			text: 'You lost!',
+			footer: `The computers hand: ${cpuHand.hand}`,
+			timer: 2000
+		})
 	}else {
 		console.log("IT'S A DRAW!");
 	}
