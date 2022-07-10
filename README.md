@@ -18,3 +18,8 @@ Rock, Paper, Scissors, Lizard, Spock
 
   I'm using [Sweetalert](https://github.com/sweetalert2/sweetalert2)'s library to display an alert to the user after they've selected a hand, informing them of the result of the game.
   Their license can be found [here](https://github.com/sweetalert2/sweetalert2/blob/main/LICENSE)
+
+* Google Fonts
+
+  The site uses Fira Sans, provided by Google Fonts.
+  Fira Sans is provided under the [SIL Open Fonts license](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
