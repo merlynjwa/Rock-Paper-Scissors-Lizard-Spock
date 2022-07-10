@@ -81,6 +81,9 @@ function displayResult(hand) {
 	}
 }
 
+/**
+ * Add an event listener to each button to select which hand the user wants to play.
+ */
 for (let button of document.getElementsByTagName('button')) {
 	let hand = button.dataset.hand;
 	button.addEventListener("click", () => displayResult(hands[hand]));
