@@ -10,6 +10,17 @@ const hands = {
 	lizard : { hand : "lizard", beats : ["paper", "spock"] }
 }
 
+/**
+ * 
+ * @param {{String, [String]}} h1 - The first hand
+ * @param {{String, [String]}} h2 - The second hand
+ * @returns Number representing if the first hand beats the second, they draw, or the second beats the first
+ * 
+ * The function is used to tell who wins between two hands.
+ * If the return is positive, the first hand won.
+ * If negative, the second hand won.
+ * Otherwise, they draw against each other.
+ */
 function compareHands(h1, h2) {
 	if (h1.hand === h2.hand) {
 		return 0;
