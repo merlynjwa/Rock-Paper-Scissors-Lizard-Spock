@@ -22,7 +22,8 @@ function randomHand() {
 }
 
 function displayResult(hand) {
-	let result = compareHands(hand, randomHand());
+	let cpuHand = randomHand();
+	let result = compareHands(hand, cpuHand);
 	if (result > 0) {
 		console.log("YOU WIN!");
 	}else if (result < 0) {
