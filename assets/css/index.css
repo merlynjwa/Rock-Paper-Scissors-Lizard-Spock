@@ -4,7 +4,9 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 
-/* Use my selected font */
+/* Make sure that the text is nice and readable
+ * and use my selected font */
 * {
+    font-size: large;
     font-family: 'Fira Sans', sans-serif;
 }
