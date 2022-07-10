@@ -59,7 +59,10 @@ footer #social-media {
 }
 
 /* Remove the highlighting for
- * hyperlinks which have been visited. */
+ * hyperlinks which have been visited.
+ * Colour the links to fit in with the
+ * sites theme. */
 footer a {
     text-decoration: none;
+    color: hsl(190, 77%, 88%);
 }
