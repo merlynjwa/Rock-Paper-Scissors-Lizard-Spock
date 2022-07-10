@@ -31,6 +31,10 @@ function compareHands(h1, h2) {
 	}
 }
 
+/**
+ * 
+ * @returns {{String, [String]}} - A randomly selected member of the `hands` object.
+ */
 function randomHand() {
 	let randomIx = Math.floor(Math.random() * 5)
 	return hands[Object.keys(hands)[randomIx]];
