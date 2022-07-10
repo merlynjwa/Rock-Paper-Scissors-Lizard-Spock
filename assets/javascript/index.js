@@ -1,3 +1,7 @@
+/**
+ * This is my representation of the possible hands for the game,
+ * with information about the relations between the hands.
+ */
 const hands = {
 	rock : { hand : "rock", beats : ["scissors", "lizard"] },
 	paper : { hand : "paper", beats : ["rock", "spock"] },
