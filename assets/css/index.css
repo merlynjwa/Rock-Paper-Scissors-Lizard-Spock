@@ -35,3 +35,11 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+/* I've spaced the sections of the page.
+ * I want the div containing the buttons
+ * and the footer of the page to be visibly
+ * apart from each other */
+body > * {
+    margin: 1% 0;
+}
