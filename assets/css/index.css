@@ -70,3 +70,9 @@ footer a {
     color: hsl(190, 77%, 88%);
     grid-row: 1;
 }
+
+/* Space the copyright mark away from
+ * the socal media links just slightly. */
+footer p {
+    margin-top: 2vh;
+}
