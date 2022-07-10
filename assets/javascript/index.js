@@ -44,6 +44,13 @@ function displayResult(hand) {
 		})
 	}else {
 		console.log("IT'S A DRAW!");
+		Swal.fire({
+			icon: 'warning',
+			title: 'Huh...',
+			text: 'It was a draw!',
+			footer: `The computers hand: ${cpuHand.hand}`,
+			timer: 2000
+		})
 	}
 }
 
