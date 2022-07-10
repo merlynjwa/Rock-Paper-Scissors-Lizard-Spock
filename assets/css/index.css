@@ -72,7 +72,10 @@ footer a {
 }
 
 /* Space the copyright mark away from
- * the socal media links just slightly. */
+ * the socal media links just slightly.
+ * Also reduce the size of the text so
+ * it's not so eye-catching */
 footer p {
     margin-top: 2vh;
+    font-size: small;
 }
