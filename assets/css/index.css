@@ -50,3 +50,10 @@ button {
 body > * {
     margin: 1% 0;
 }
+
+/* Space the social media links
+ * automatically using CSS Grid */
+footer #social-media {
+    display: grid;
+    justify-content: space-evenly;
+}
