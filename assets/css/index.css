@@ -20,9 +20,11 @@ body {
 }
 
 /* Give each button a colour in keeping with
- * the pages theme. Round the corners of the buttons */
+ * the pages theme. Round the corners of the buttons
+ * and remove the border to make them look softer. */
 button {
     background-color: hsl(201, 100%, 36%);
     color: white;
+    border: 0;
     border-radius: 12px;
 }
