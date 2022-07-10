@@ -66,6 +66,7 @@ footer #social-media {
  * in a row */
 footer a {
     text-decoration: none;
+    font-size: 2vw;
     color: hsl(190, 77%, 88%);
     grid-row: 1;
 }
