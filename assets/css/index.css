@@ -18,3 +18,10 @@ body {
     background-color: hsl(239, 94%, 19%);
     color: white;
 }
+
+/* Give each button a colour in keeping with
+ * the pages theme. */
+button {
+    background-color: hsl(201, 100%, 36%);
+    color: white;
+}
