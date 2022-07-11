@@ -116,6 +116,16 @@ I had an issue with my code only giving the loss condition. This was due to an i
 
 I was passing it a string when it expected an object containing a string and an array of strings.
 
+## Deployment
+
+The repository is hosted by GitHub.
+
+I then deployed the website through GitHub pages by
+using the feature in the repo's settings and setting it to build the site from the main branch.
+
+The live link is [here](https://merlynjwa.github.io/Rock-Paper-Scissors-Lizard-Spock/)
+
+
 ## Credits
 
 * Font Awesome
