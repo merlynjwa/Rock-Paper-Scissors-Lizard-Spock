@@ -59,7 +59,7 @@ function displayResult(hand) {
 			text: 'You won!',
 			footer: `The computers hand: ${cpuHand.hand}`,
 			timer: 2000
-		})
+		});
 	}else if (result < 0) {
 		console.log("YOU LOSE!");
 		Swal.fire({
