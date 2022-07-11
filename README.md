@@ -56,6 +56,66 @@ This site allows people to play Rock, Paper, Scissors, Lizard, Spock against the
 * Allow the user to play against fellow human players as well as their computer
 * Have the site change its layout for screen widths greater than 768px
 
+## Testing
+
+I have run my site through lighthouse and received the following results:
+
+  * Mobile:
+  
+  ![Lighthouse report for mobile](./assets/images/lighthouse-mobile.PNG)
+
+  * Desktop:
+
+  ![Lighthouse report for desktop](./assets/images/lighthouse-desktop.PNG)
+
+I checked my Javascript code by console logging out the values of each function's inputs and output to make sure that they matched the values which I expected.
+
+### Validator Testing
+
+* HTML
+
+  * The W3C Validator found [no errors](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmerlynjwa.github.io%2FRock-Paper-Scissors-Lizard-Spock%2F)
+
+* CSS
+
+  * Jigsaw found [no errors](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmerlynjwa.github.io%2FRock-Paper-Scissors-Lizard-Spock%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+* Javascript
+
+  * No errors were found by Jshint
+  
+    The following metrics were given:
+    
+      * There are 4 functions in this file.
+
+      * Function with the largest signature take 2 arguments, while the median is 0.5.
+
+      * Largest function has 9 statements in it, while the median is 3.
+
+      * The most complex function has a cyclomatic complexity value of 3 while the median is 2.
+
+    Jshint gave one warning:
+
+      * `89	Functions declared within loops referencing an outer scoped variable may lead to confusing semantics. (displayResult, hand)`
+
+    My code has one undefined variable:
+
+      * `56	Swal`
+      * `65	Swal`
+      * `74	Swal`
+
+### Bugs
+
+#### Unfixed Bugs
+
+There are no unfixed bugs that I'm aware of.
+
+#### Fixed Bugs
+
+I had an issue with my code only giving the loss condition. This was due to an inconsistency between the type which my `compareHands` function expected the input hand to be and the type I was passing it.
+
+I was passing it a string when it expected an object containing a string and an array of strings.
+
 ## Credits
 
 * Font Awesome
