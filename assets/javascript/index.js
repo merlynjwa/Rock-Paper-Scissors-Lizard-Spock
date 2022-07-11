@@ -8,7 +8,7 @@ const hands = {
 	scissors : { hand : "scissors", beats : ["paper", "lizard"] },
 	spock : { hand : "spock", beats : ["rock", "scissors"] },
 	lizard : { hand : "lizard", beats : ["paper", "spock"] }
-}
+};
 
 /**
  * 
