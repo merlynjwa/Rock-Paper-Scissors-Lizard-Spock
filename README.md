@@ -4,6 +4,8 @@ Rock, Paper, Scissors, Lizard, Spock is a game for those who like playing Rock, 
 
 This site allows people to play Rock, Paper, Scissors, Lizard, Spock against their computer.
 
+![am-i-responsive](./assets/images/amiresponsive.PNG)
+
 ## Credits
 
 * Font Awesome
