@@ -50,6 +50,12 @@ This site allows people to play Rock, Paper, Scissors, Lizard, Spock against the
 
   The copyright mark serves to remind viewers of the author's identity as well as assist with the legal protection of their work.
 
+### Features Left to Implement
+
+* An alert giving the game rules
+* Allow the user to play against fellow human players as well as their computer
+* Have the site change its layout for screen widths greater than 768px
+
 ## Credits
 
 * Font Awesome
