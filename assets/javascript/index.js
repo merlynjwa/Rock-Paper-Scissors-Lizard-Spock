@@ -77,7 +77,7 @@ function displayResult(hand) {
 			text: 'It was a draw!',
 			footer: `The computers hand: ${cpuHand.hand}`,
 			timer: 2000
-		})
+		});
 	}
 }
 
