@@ -19,6 +19,12 @@ body {
     color: white;
 }
 
+h1 {
+    font-size: large;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
 /* Give each button a colour in keeping with
  * the pages theme. Round the corners of the buttons
  * and remove the border to make them look softer.
