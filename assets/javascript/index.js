@@ -68,7 +68,7 @@ function displayResult(hand) {
 			text: 'You lost!',
 			footer: `The computers hand: ${cpuHand.hand}`,
 			timer: 2000
-		})
+		});
 	}else {
 		console.log("IT'S A DRAW!");
 		Swal.fire({
